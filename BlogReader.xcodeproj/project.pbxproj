@@ -19,6 +19,9 @@
 		235F6FAB182D91DD005A922D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F6F93182D91DD005A922D /* UIKit.framework */; };
 		235F6FB3182D91DD005A922D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 235F6FB1182D91DD005A922D /* InfoPlist.strings */; };
 		235F6FB5182D91DD005A922D /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F6FB4182D91DD005A922D /* BlogReaderTests.m */; };
+		235F6FBF182D9216005A922D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235F6FBE182D9216005A922D /* Storyboard.storyboard */; };
+		235F6FC2182D9719005A922D /* KKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F6FC1182D9719005A922D /* KKTableViewController.m */; };
+		235F6FC5182DA708005A922D /* KKBlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 235F6FC4182DA708005A922D /* KKBlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		235F6FB0182D91DD005A922D /* BlogReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReaderTests-Info.plist"; sourceTree = "<group>"; };
 		235F6FB2182D91DD005A922D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		235F6FB4182D91DD005A922D /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		235F6FBE182D9216005A922D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		235F6FC0182D9719005A922D /* KKTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKTableViewController.h; sourceTree = "<group>"; };
+		235F6FC1182D9719005A922D /* KKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKTableViewController.m; sourceTree = "<group>"; };
+		235F6FC3182DA708005A922D /* KKBlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBlogPost.h; sourceTree = "<group>"; };
+		235F6FC4182DA708005A922D /* KKBlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +117,13 @@
 			children = (
 				235F6F9E182D91DD005A922D /* KKAppDelegate.h */,
 				235F6F9F182D91DD005A922D /* KKAppDelegate.m */,
+				235F6FC0182D9719005A922D /* KKTableViewController.h */,
+				235F6FC1182D9719005A922D /* KKTableViewController.m */,
+				235F6FC3182DA708005A922D /* KKBlogPost.h */,
+				235F6FC4182DA708005A922D /* KKBlogPost.m */,
 				235F6FA1182D91DD005A922D /* Images.xcassets */,
 				235F6F96182D91DD005A922D /* Supporting Files */,
+				235F6FBE182D9216005A922D /* Storyboard.storyboard */,
 			);
 			path = BlogReader;
 			sourceTree = "<group>";
@@ -222,6 +235,7 @@
 			files = (
 				235F6F9A182D91DD005A922D /* InfoPlist.strings in Resources */,
 				235F6FA2182D91DD005A922D /* Images.xcassets in Resources */,
+				235F6FBF182D9216005A922D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				235F6FA0182D91DD005A922D /* KKAppDelegate.m in Sources */,
+				235F6FC2182D9719005A922D /* KKTableViewController.m in Sources */,
 				235F6F9C182D91DD005A922D /* main.m in Sources */,
+				235F6FC5182DA708005A922D /* KKBlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
