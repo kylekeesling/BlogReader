@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230EE8D61831CCE900E401AB /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = 230EE8D51831CCE900E401AB /* 512.png */; };
+		230EE8D91831EC7D00E401AB /* KKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 230EE8D81831EC7D00E401AB /* KKWebViewController.m */; };
 		235F6F90182D91DD005A922D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F6F8F182D91DD005A922D /* Foundation.framework */; };
 		235F6F92182D91DD005A922D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F6F91182D91DD005A922D /* CoreGraphics.framework */; };
 		235F6F94182D91DD005A922D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 235F6F93182D91DD005A922D /* UIKit.framework */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230EE8D51831CCE900E401AB /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
+		230EE8D71831EC7D00E401AB /* KKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKWebViewController.h; sourceTree = "<group>"; };
+		230EE8D81831EC7D00E401AB /* KKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKWebViewController.m; sourceTree = "<group>"; };
 		235F6F8C182D91DD005A922D /* BlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		235F6F8F182D91DD005A922D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		235F6F91182D91DD005A922D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,8 @@
 				235F6FA1182D91DD005A922D /* Images.xcassets */,
 				235F6F96182D91DD005A922D /* Supporting Files */,
 				235F6FBE182D9216005A922D /* Storyboard.storyboard */,
+				230EE8D71831EC7D00E401AB /* KKWebViewController.h */,
+				230EE8D81831EC7D00E401AB /* KKWebViewController.m */,
 			);
 			path = BlogReader;
 			sourceTree = "<group>";
@@ -131,6 +138,7 @@
 		235F6F96182D91DD005A922D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				230EE8D51831CCE900E401AB /* 512.png */,
 				235F6F97182D91DD005A922D /* BlogReader-Info.plist */,
 				235F6F98182D91DD005A922D /* InfoPlist.strings */,
 				235F6F9B182D91DD005A922D /* main.m */,
@@ -235,6 +243,7 @@
 			files = (
 				235F6F9A182D91DD005A922D /* InfoPlist.strings in Resources */,
 				235F6FA2182D91DD005A922D /* Images.xcassets in Resources */,
+				230EE8D61831CCE900E401AB /* 512.png in Resources */,
 				235F6FBF182D9216005A922D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +265,7 @@
 			files = (
 				235F6FA0182D91DD005A922D /* KKAppDelegate.m in Sources */,
 				235F6FC2182D9719005A922D /* KKTableViewController.m in Sources */,
+				230EE8D91831EC7D00E401AB /* KKWebViewController.m in Sources */,
 				235F6F9C182D91DD005A922D /* main.m in Sources */,
 				235F6FC5182DA708005A922D /* KKBlogPost.m in Sources */,
 			);
@@ -458,6 +468,7 @@
 				235F6FBA182D91DD005A922D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		235F6FBB182D91DD005A922D /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +477,7 @@
 				235F6FBD182D91DD005A922D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

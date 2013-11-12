@@ -10,6 +10,6 @@
 
 @interface KKTableViewController : UITableViewController
 
-@property (nonatomic, strong) NSArray *blogPosts;
+@property (nonatomic, strong) NSMutableArray *blogPosts;
 
 @end
